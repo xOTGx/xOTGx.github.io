@@ -2,40 +2,7 @@
   margin:0px;
   padding:0px;
 }
-html, body{
-  background-color: black;
-    margin:0; padding:0;
-}
-#fond{
-	height:586px;
-	width:753px;
-    margin: 0 auto;
-	background-color:#a1847a;
-}
-#fume{
-	width:753px; height:586px;
-	background-image:url(/images/images.jpg);
-	background-position:100px 0;
-	background-repeat:no-repeat;
-    
-    animation: defil 12s infinite;
-	animation-timing-function: linear;
-}
-#masque{
-	width:753px; height:586px;
-	background-image:url(http://dev.graphiste-webdesign.fr/fumee/images/masque.png);
-	background-repeat:no-repeat;
-	background-position:top center;
-}
-img {
-	margin-left:313px;
-	margin-top:485px;
-}
 
-@keyframes defil {
-    0%   {background-position:100px 0;}
-    100% {background-position:100px -1983px;}
-}
 
 
 p {
