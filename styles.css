@@ -45,7 +45,7 @@ h2 {
 
 h3 {
   text-align: center;
-  color: grey;
+  color: blue;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
@@ -75,9 +75,9 @@ li {
 }
 
 .button {
-  background-color: red;
+  background-color: black;
   border: none;
-  color: white;
+  color: blue;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
