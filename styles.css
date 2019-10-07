@@ -101,7 +101,7 @@ li {
 
 .header a {
   float: left;
-  color: white;
+  color: ;
   text-align: center;
   padding: 12px;
   font-size: 18px; 
@@ -114,8 +114,8 @@ li {
 }
 
 .header a:hover {
-  background-color: white;
-  color: red;
+  background-color: blue;
+  color: black;
 }
 
 @media screen and (max-width: 500px) {
