@@ -58,7 +58,7 @@ h4 {
 p {
   text-align: center;
   color: black;
-  font-family: 'Dancing Script', cursive;
+  font: 20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
 li {
