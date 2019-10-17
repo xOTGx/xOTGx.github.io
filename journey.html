@@ -1,7 +1,11 @@
 <!DOCTYPE html>
+
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>My journey</title>  
+  <LINK href="styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
 <style>
 body {
   font-family: "Lato", sans-serif;
@@ -46,16 +50,33 @@ body {
   .sidenav a {font-size: 18px;}
 }
 </style>
-</head>
-<body>
-
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="about.html">About</a>
+  <a href="/index.html">About</a>
   <a href="/journey.html">journey</a>
   <a href="/projects.html">projects</a>
   <a href="/art.html">art</a>
 </div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+   
+ <div>
+     <div>
+        <h2>Week 1-2</h2>
+    <p>our achievements within the first 2 weeks!</p>
+    <ul>
+      <li>Sharing life experiences</li>
+      <li>Health & Wellbeing</li>
+      <li>NZQA credits</li>
+      <li>Drivers Licence</li>
+      <li>Tech opportunities - workplace shadowing</li>
+      <li>Building app prototypes in teams</li>
+      <li>Growing together</li>
+     <br>
+
+    </div>
+   <img src="/images/whetu.jpeg">
+ </div>
 <script>
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
@@ -65,7 +86,5 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 </script>
-   
 </body>
-</html> 
-
+</html>
